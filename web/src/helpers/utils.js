@@ -22,9 +22,9 @@ export function isRoot() {
 }
 
 export function getSystemName() {
-  let system_name = localStorage.getItem('system_name');
-  if (!system_name) return 'New API';
-  return system_name;
+  // let system_name = localStorage.getItem('system_name');
+  // if (!system_name) return 'DuckAGI';
+  return "DuckAGI";
 }
 
 export function getLogo() {
